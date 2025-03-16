@@ -1,0 +1,81 @@
+.body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/Registerbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 600px;  /* Increased max-width for larger screens */
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  border-radius: 15px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.793);
+}
+
+/* Form Input Styles */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: rgba(8, 208, 108, 0.741);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Submit Button Styling */
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .body {
+    padding: 10px;
+  }
+
+  .register-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  form label {
+    font-size: 14px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 14px;
+  }
+}

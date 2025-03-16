@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&family=Lora:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* General Footer Styles */
+.footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.subscribe-section,
+.contact-section,
+.links-section,
+.brands-section {
+  margin: 10px;
+  flex: 1 1 200px;
+}
+
+.subscribe-section form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribe-section input {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-section button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #f5a623;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-section button:hover {
+  background-color: #e59420;
+}
+
+.contact-section a,
+.links-section a {
+  color: #f5a623;
+  text-decoration: none;
+}
+
+.contact-section a:hover,
+.links-section a:hover {
+  text-decoration: underline;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-section ul li {
+  margin: 8px 0;
+}
+
+.brands-section p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-bottom .footer-links {
+  margin: 10px 0;
+}
+
+.footer-bottom .footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #ddd;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.footer-bottom .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.sponsors-partners {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+:host {
+  display: block;
+  margin: 0;
+}
+
+/* Custom styles for 'Our Partners' */
+.sponsors-partners h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: #f5a623;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sponsors-partners p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #ddd;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Custom styles for 'Our Brands' */
+.brands-section h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: #f5a623;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.brands-section p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.8;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Custom styles for 'COZY LIFE' and 'Our Brands' */
+.links-section h4,
+.contact-section h4 {
+  font-family: 'Oswald', serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* You can adjust the weight as per your need, e.g., 400 or 500 */
+  font-style: normal;
+}
+
